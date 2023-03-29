@@ -7,11 +7,12 @@ function generateArrays(data){
   let even_numbers = []
   let odd_numbers = []
   let alphabets = []
-  let userid = "bhavay_singhal_2010991360"
+  let userid = "bhavay_singhal_17122001"
   let email = "bhavay1360.be20@chitkara.edu.in"
-  let roll_number = "2010991291360"
+  let roll_number = "2010991360"
   
   for(const element of data){
+
         if(isNaN(element)){
           alphabets.push(element.toUpperCase())
         }else if(Number(element) % 2 === 0){
